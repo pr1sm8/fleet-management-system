@@ -1,0 +1,61 @@
+<mxfile host="65bd71144e">
+    <diagram id="hr-WVK5cU25oV03Hmg7i" name="Page-1">
+        <mxGraphModel dx="528" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.service_bus;pointerEvents=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="90" width="45" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="shape=mxgraph.signs.transportation.bus_3;html=1;pointerEvents=1;fillColor=#e3c800;strokeColor=#B09500;verticalLabelPosition=bottom;verticalAlign=top;align=center;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="390" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="shape=mxgraph.cisco.wireless.satellite;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="80" width="123" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="shape=mxgraph.cisco.people.androgenous_person;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="750" y="371.5" width="49" height="52" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/general/Mobile_Engagement.svg;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="371.5" width="40" height="67" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="220" as="sourcePoint"/>
+                        <mxPoint x="310" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Live Location is collected&amp;nbsp;&lt;br&gt;from the Bus" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=classic;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4" target="2">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="392" y="210" as="sourcePoint"/>
+                        <mxPoint x="610" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="Location is saved &amp;amp; transferred from&amp;nbsp;&lt;br&gt;the Cloud&amp;nbsp;" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=classic;html=1;entryX=0.436;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.345;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2" target="11">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="220" as="sourcePoint"/>
+                        <mxPoint x="470" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="Shows the live location&amp;nbsp;&lt;br&gt;to user" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;html=1;entryX=0.23;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.86;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="2" target="7">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="210" as="sourcePoint"/>
+                        <mxPoint x="470" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="Sends the report to the&lt;br&gt;College Admin" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
